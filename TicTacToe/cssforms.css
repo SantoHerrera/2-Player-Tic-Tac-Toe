@@ -1,0 +1,32 @@
+.class {
+    border: 10px solid #e538e5;
+}
+
+#thegrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 02px;
+    /*background-color: #0c0d0d;*/
+    padding: 5px
+    font-size: 50px;
+    color: red;
+}
+
+.grid {
+    text-align: center;
+    background-color: #e3d8d8;
+    padding: 25px 25px 25px 25px;
+    font-size: 50px;
+}
+.innergrid {
+    padding: 10px;
+    font-size: 30px;
+}
+#playersturn{
+    text-align: center;
+    font-size: 50px;
+}
+
+.removepointer {
+    pointer-events: none;
+}
